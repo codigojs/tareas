@@ -1,0 +1,21 @@
+frontend/node_modules/
+.editorconfig
+.quasar
+.DS_Store
+.thumbs.db
+frontend/dist
+frontend/src-cordova/node_modules
+frontend/src-cordova/platforms
+frontend/src-cordova/plugins
+frontend/src-cordova/www
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
