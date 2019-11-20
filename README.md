@@ -2,7 +2,7 @@
 Aplicación de asignación de tareas creada con Vue, Quasar y Django Rest Framework
 # Aplicación de Gestión de Tareas
 
-Aplicación del curso [Desarrollo de una SPA y APP utilizando VueJS, Quasar Framework, Django y Android Studio](http://www.dropwizard.io/1.0.2/docs/).
+Aplicación del curso [Desarrollo de una SPA y APP utilizando VueJS, Quasar Framework, Django y Android Studio](https://www.codigojs.com/quasar-framework/desarrollo-spa-y-app-quasar-django-y-android/).
 
 ## Comenzando 🚀
 
@@ -17,7 +17,7 @@ Nos movemos a la carpeta del proyecto.
 cd tareas/frontend/
 ```
 
-Instalamos las dependencias del proyecto.
+Instalamos las dependencias.
 
 ```
 npm install
