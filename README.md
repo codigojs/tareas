@@ -36,8 +36,8 @@ Esperamos a que se compile el proyecto y se abra de forma automática en nuestro
 
 * [VueJS](https://vuejs.org/)
 * [Quasar](https://quasar.dev/)
-* [Django](https://https://www.djangoproject.com-) 
+* [Django](https://www.djangoproject.com/)
 
 
 ---
-⌨️ Con ❤️ por [CodigoJS](https://www.codigojs.com) 😊
+⌨️ Con ❤️ por [CodigoJS](https://www.codigojs.com/) 😊
