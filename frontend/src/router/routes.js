@@ -4,17 +4,37 @@ const routes = [
     path: '/',
     component: () => import('layouts/MyLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/Index.vue') }
+      { path: '',
+        name: 'index',
+        component: () => import('pages/Index.vue')
+      },
+      {
+        path: '/usuarios/',
+        name: 'usuarios',
+        component: () => import('pages/Usuarios.vue')
+      },
+      {
+        path: '/acerca/',
+        name: 'acerca',
+        component: () => import('pages/Acerca.vue')
+      }
+    ]
+  },
+  { // Nuevas rutas
+    path: '/',
+    component: () => import('layouts/Users.vue'),
+    children: [
+      { path: '/login/',
+        name: 'login',
+        component: () => import('pages/Login.vue')
+      },
+      {
+        path: '/register/',
+        name: 'register',
+        component: () => import('pages/Register.vue')
+      }
     ]
   }
 ]
-
-// Always leave this as last one
-if (process.env.MODE !== 'ssr') {
-  routes.push({
-    path: '*',
-    component: () => import('pages/Error404.vue')
-  })
-}
 
 export default routes

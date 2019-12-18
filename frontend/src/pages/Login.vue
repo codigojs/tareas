@@ -1,6 +1,6 @@
 <template>
   <q-page padding>
-    <!-- content -->
+    <h1>Inicio de sesión</h1>
   </q-page>
 </template>
 

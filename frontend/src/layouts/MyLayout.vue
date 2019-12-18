@@ -17,19 +17,19 @@
     <q-drawer show-if-above v-model="left" side="left" bordered>
       <!-- drawer content -->
       <q-list padding class="rounded-borders">
-        <q-item clickable v-ripple>
+        <q-item :to="{ name: 'index' }" clickable v-ripple>
           <q-item-section>
             Inicio
           </q-item-section>
         </q-item>
 
-        <q-item clickable v-ripple>
-          <q-item-section>
+        <q-item :to="{ name:'usuarios' }" clickable v-ripple>
+          <q-item-section >
             Usuarios
           </q-item-section>
         </q-item>
 
-        <q-item clickable v-ripple>
+        <q-item :to="{ name: 'acerca' }" clickable v-ripple>
           <q-item-section>
             Acerca de
           </q-item-section>
