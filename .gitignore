@@ -21,6 +21,5 @@ yarn-error.log*
 *.sln
 *.code-workspace
 
-virtualenv/
 backend/db.sqlite3
-
+tareas/
