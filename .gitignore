@@ -20,6 +20,7 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.code-workspace
+*.pyc
 
 backend/db.sqlite3
 tareas/
