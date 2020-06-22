@@ -2,8 +2,10 @@
 import graphene
 from graphene_django.debug import DjangoDebug
 
-class Query(graphene.ObjectType):
-    debug = graphene.Field(DjangoDebug, name='_debug')
+from tareas.schema import Query as TodoSchemeQuery
+
+class Query(TodoSchemeQuery, graphene.ObjectType):
+    pass
 
 class Mutation(graphene.ObjectType):
     debug = graphene.Field(DjangoDebug, name='_debug')
